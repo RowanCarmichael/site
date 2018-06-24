@@ -1,0 +1,315 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Resume page renders correctly 1`] = `
+<div
+  className={undefined}
+>
+  <div
+    className={undefined}
+    onClick={[Function]}
+    role="button"
+    tabIndex="0"
+  >
+    <pdf.svg
+      height="70"
+      width="70"
+    />
+  </div>
+  <div
+    className="Container__container___1UbtE"
+  >
+    <div
+      className={undefined}
+    >
+      <img
+        alt="mountain"
+        className={null}
+        onLoad={[Function]}
+        src="mountain.jpeg"
+      />
+    </div>
+    <div
+      className="Background__backgroundOuter___2XEdG Background__foreground___2JmNj"
+    >
+      <div
+        className="Background__backgroundInner___34S8e"
+      >
+        <div
+          className={null}
+          delay={1000}
+          speed={60}
+        >
+          <span>
+            
+          </span>
+          <span
+            className={undefined}
+          >
+            |
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="Container__container___1UbtE"
+  >
+    <div
+      className={undefined}
+    >
+      <img
+        alt="desk"
+        className={undefined}
+        src="desk.jpeg"
+      />
+    </div>
+    <div
+      className="Background__backgroundOuter___2XEdG Background__foreground___2JmNj"
+    >
+      <div
+        className="Background__backgroundInner___34S8e"
+      >
+        <div
+          className={undefined}
+        >
+          <h1>
+            SKILLS
+          </h1>
+          <div
+            className={undefined}
+          >
+            <h2>
+              Experienced In:
+            </h2>
+            <ul>
+              <li>
+                ReactJS
+              </li>
+              <li>
+                JavaScript
+              </li>
+              <li>
+                HTML
+              </li>
+              <li>
+                CSS
+              </li>
+            </ul>
+            <h2>
+              Familiar With:
+            </h2>
+            <ul>
+              <li>
+                SQL
+              </li>
+              <li>
+                Java
+              </li>
+              <li>
+                C#
+              </li>
+              <li>
+                Xamarin
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="Container__container___1UbtE"
+  >
+    <div
+      className={undefined}
+    >
+      <img
+        alt="keyboard"
+        className={undefined}
+        src="keyboard.jpeg"
+      />
+    </div>
+    <div
+      className="Background__backgroundOuter___2XEdG Background__foreground___2JmNj"
+    >
+      <div
+        className="Background__backgroundInner___34S8e"
+      >
+        <div
+          className={undefined}
+        >
+          <h1>
+            FAVOURITE LIBRARIES
+          </h1>
+          <div
+            className={undefined}
+          >
+            <ul>
+              <li>
+                Redux
+              </li>
+              <li>
+                Mobx
+              </li>
+              <li>
+                CSS Modules
+              </li>
+              <li>
+                Mocha
+              </li>
+              <li>
+                Eslint
+              </li>
+              <li>
+                Chai
+              </li>
+              <li>
+                Enzyme
+              </li>
+              <li>
+                Jest
+              </li>
+              <li>
+                Selenium
+              </li>
+              <li>
+                Flow
+              </li>
+              <li>
+                Babel
+              </li>
+              <li>
+                Webpack
+              </li>
+              <li>
+                Node.js (Express)
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="Container__container___1UbtE"
+  >
+    <div
+      className={undefined}
+    >
+      <img
+        alt="dock"
+        className={undefined}
+        src="dock.jpeg"
+      />
+    </div>
+    <div
+      className="Background__backgroundOuter___2XEdG Background__foreground___2JmNj"
+    >
+      <div
+        className="Background__backgroundInner___34S8e"
+      >
+        <div
+          className={undefined}
+        >
+          <h1>
+            EXPERIENCE
+          </h1>
+          <div
+            className={undefined}
+          >
+            <div>
+              <p
+                className={undefined}
+              >
+                React Frontend Engineer
+              </p>
+              <p
+                className={undefined}
+              >
+                EROAD Limited
+              </p>
+              <p
+                className={undefined}
+              >
+                Feb 2016 - Now
+              </p>
+            </div>
+            <div>
+              <p
+                className={undefined}
+              >
+                Wed Developer - Industry Project
+              </p>
+              <p
+                className={undefined}
+              >
+                OPUS International Consultants Limited
+              </p>
+              <p
+                className={undefined}
+              >
+                Mar 2015 - Nov 2015
+              </p>
+            </div>
+            <div>
+              <p
+                className={undefined}
+              >
+                Computer Science Lab Demonstrator
+              </p>
+              <p
+                className={undefined}
+              >
+                University of Auckland Computer Science Department
+              </p>
+              <p
+                className={undefined}
+              >
+                Mar 2015 - Nov 2015
+              </p>
+            </div>
+            <div>
+              <p
+                className={undefined}
+              >
+                BTech(Hons) Specialising in Information Technology
+              </p>
+              <p
+                className={undefined}
+              >
+                University of Auckland
+              </p>
+              <p
+                className={undefined}
+              >
+                Mar 2012 - Nov 2015
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className={undefined}
+  >
+    <div
+      className={undefined}
+      onClick={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <h3
+        className={undefined}
+      >
+        Download Full Resume
+      </h3>
+      <arrow.svg
+        className={undefined}
+        height="60"
+        width="60"
+      />
+    </div>
+  </div>
+</div>
+`;

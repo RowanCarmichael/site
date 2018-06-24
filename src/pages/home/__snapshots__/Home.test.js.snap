@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page renders correctly 1`] = `
+<div>
+  <div
+    className="Container__container___1UbtE"
+  >
+    <img
+      alt="laptopBackground"
+      className={null}
+      onLoad={[Function]}
+      src="laptop.jpg"
+    />
+    <div
+      className="Background__backgroundOuter___2XEdG Background__foreground___2JmNj"
+    >
+      <div
+        className="Background__backgroundInner___34S8e"
+      >
+        <div
+          className={undefined}
+        >
+          <h1
+            className={undefined}
+          >
+            Rowan Carmichael
+          </h1>
+          <div
+            className={undefined}
+          />
+          <div
+            className={null}
+            delay={3000}
+            speed={60}
+          >
+            <span>
+              
+            </span>
+            <span
+              className={undefined}
+            >
+              |
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className={undefined}
+  >
+    <img
+      alt="face"
+      src="face.png"
+      width="180px"
+    />
+    <h1>
+      What I'm about
+    </h1>
+  </div>
+  <div
+    className={undefined}
+  >
+    <div>
+      <div>
+        <h2>
+          Software Development
+        </h2>
+        <p>
+          I'm a frontend engineer passionate about React.
+        </p>
+        <p>
+          Check out the 
+          <a
+            className={undefined}
+            href="http://www.github.com/RowanCarmichael/site"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            code for this page
+          </a>
+           and more on my 
+          <a
+            className={undefined}
+            href="http://www.github.com/RowanCarmichael"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            GitHub
+          </a>
+        </p>
+      </div>
+      <keyboard.svg
+        className={undefined}
+      />
+    </div>
+    <div>
+      <devices.svg
+        className={undefined}
+      />
+      <div>
+        <h2>
+          Practical Solutions
+        </h2>
+        <p>
+          Critical thinker with an inquisitive personality who has a customer focused mind and always stives for best usability experience
+        </p>
+        <p>
+          Work closely with backend developers, UI/UX designers, product managers and testers to thoroughly understand the products back-to-front
+        </p>
+      </div>
+    </div>
+    <div>
+      <div>
+        <h2>
+          Agile Practitioner
+        </h2>
+        <p>
+          Well versed in utilising both Scrum and Kanban agile development methodologies within a high performing team environment
+        </p>
+      </div>
+      <chat.svg
+        className={undefined}
+      />
+    </div>
+    <div>
+      <test.svg
+        className={undefined}
+      />
+      <div>
+        <h2>
+          Automative Testing
+        </h2>
+        <p>
+          Takes great pride in code quality and highly respects the importance of creating automated tests spanning all levels of the testing pyramid to ensure the highest quality of products
+        </p>
+      </div>
+    </div>
+    <div>
+      <div>
+        <h2>
+          Learner
+        </h2>
+        <p>
+          But above all else I love to be challenged, to learn and to grow!
+        </p>
+        <p>
+          If you'd like to see more of what I can do take a look at my 
+          <a
+            className={undefined}
+            href="RowanCarmichaelCV.pdf"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            Resume
+          </a>
+        </p>
+        <p>
+          Or if you'd prefer to chat feel free to contact me via 
+          <a
+            className={undefined}
+            href="mailto:carmichaelr@hotmail.co.uk"
+          >
+            Email
+          </a>
+           or 
+          <a
+            className={undefined}
+            href="http://www.linkedin.com/in/rowan-carmichael/"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            LinkedIn
+          </a>
+        </p>
+      </div>
+      <book.svg
+        className={undefined}
+      />
+    </div>
+  </div>
+</div>
+`;

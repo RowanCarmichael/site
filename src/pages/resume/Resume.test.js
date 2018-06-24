@@ -1,10 +1,10 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import App from './App';
+import Resume from './Resume';
 
-describe('App page', () => {
+describe('Resume page', () => {
   it('renders correctly', () => {
-    const rendered = renderer.create(<App />);
+    const rendered = renderer.create(<Resume />);
     expect(rendered.toJSON()).toMatchSnapshot();
   });
 });
