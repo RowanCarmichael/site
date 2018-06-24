@@ -1,47 +1,83 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import styles from './App.css';
+import ScrollToTop from './components/routerUtils/ScrollToTop';
+import GithubIcon from './assets/icons/github.svg';
+import LinkedInIcon from './assets/icons/linkedin.svg';
+import EmailIcon from './assets/icons/email.svg';
+import IconButton from './components/buttons/IconButton';
+import Button from './components/buttons/Button';
+import Footer from './components/footer/Footer';
+import Header from './components/header/Header';
+import Home from './pages/home/Home';
+import Resume from './pages/resume/Resume';
 
-const Home = () => (
-  <div>
-    <h2>Home</h2>
-  </div>
-);
+class App extends React.Component {
+  state = {
+    scrollY: 0,
+    headerClassName: styles.showHeader,
+  }
 
-const About = () => (
-  <div>
-    <h2>About</h2>
-  </div>
-);
+  componentDidMount = () => {
+    window.addEventListener('scroll', this.handleScroll);
+  }
 
-const Topics = () => (
-  <div>
-    <h2>Topics</h2>
-  </div>
-);
+  componentWillUnmount = () => {
+    window.removeEventListener('scroll', this.handleScroll);
+  }
 
-const App = () => (
-  <Router>
-    <div>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/topics">Topics</Link>
-        </li>
-      </ul>
+  handleScroll = (val) => {
+    if (this.state.scrollY > val.currentTarget.scrollY) {
+      this.setState(() => ({
+        scrollY: val.currentTarget.scrollY,
+        headerClassName: styles.showHeader,
+      }));
+    } else if (this.state.scrollY < val.currentTarget.scrollY) {
+      this.setState(() => ({
+        scrollY: val.currentTarget.scrollY,
+        headerClassName: styles.hideHeader,
+      }));
+    }
+  }
 
-      <hr />
+  gotoGithub = () => {
+    window.open('http://www.github.com/RowanCarmichael');
+  };
 
-      <Route exact path="/" component={Home} />
-      <Route path="/about" component={About} />
-      <Route path="/topics" component={Topics} />
-    </div>
-  </Router>
-);
+  gotoLinkedIn = () => {
+    window.open('http://www.linkedin.com/in/rowan-carmichael/');
+  };
+
+  gotoEmail = () => {
+    window.location.href = 'mailto:carmichaelr@hotmail.co.uk';
+  };
+
+  render() {
+    return (
+      <Router onUpdate={this.scrollToTop}>
+        <ScrollToTop>
+          <div className={styles.app}>
+            <div className={styles.headerContainer}>
+              <Header className={this.state.headerClassName}>
+                <Link to="/"><Button focussable label="Home" className={styles.linkButton} /></Link>
+                <Link to="/resume"><Button focussable label="Resume" className={styles.linkButton} /></Link>
+              </Header>
+            </div>
+            <Route exact path="/" component={Home} />
+            <Route path="/resume" component={Resume} />
+            <Footer>
+              <p>© 2018 Rowan Carmichael. All rights reserved.</p>
+              <div>
+                <IconButton onClick={this.gotoGithub} className={styles.iconButton} icon={<GithubIcon width="20" height="20" />} />
+                <IconButton onClick={this.gotoLinkedIn} className={styles.iconButton} icon={<LinkedInIcon width="20" height="20" />} />
+                <IconButton onClick={this.gotoEmail} className={styles.iconButton} icon={<EmailIcon width="20" height="20" />} />
+              </div>
+            </Footer>
+          </div>
+        </ScrollToTop>
+      </Router>
+    );
+  }
+};
 
 export default App;

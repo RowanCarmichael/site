@@ -1,0 +1,13 @@
+.cursor {
+  animation: blinkingCursor 1.2s infinite normal;
+  animation-timing-function: steps(1, end);
+}
+
+@keyframes blinkingCursor{
+  0% {
+    color: inherit
+  }
+  50% {
+    color: transparent;
+  }
+}
