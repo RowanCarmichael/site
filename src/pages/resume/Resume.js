@@ -3,7 +3,7 @@ import { Container, Background } from 'react-fixed-background';
 import Typewriter from '../../components/typewriter/Typewriter';
 import styles from './Resume.css';
 import PdfIcon from '../../assets/icons/pdf.svg';
-import resume from '../../assets/files/RowanCarmichaelCV.pdf';
+import resume from '../../assets/files/RowanCarmichaelResume.pdf';
 import FloatingButton from '../../components/buttons/FloatingButton';
 import mountain from '../../assets/images/mountain.jpeg';
 import desk from '../../assets/images/desk.jpeg';

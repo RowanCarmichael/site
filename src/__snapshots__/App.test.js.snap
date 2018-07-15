@@ -136,10 +136,7 @@ exports[`App page renders correctly 1`] = `
             Practical Solutions
           </h2>
           <p>
-            Critical thinker with an inquisitive personality who has a customer focused mind and always stives for best usability experience
-          </p>
-          <p>
-            Work closely with backend developers, UI/UX designers, product managers and testers to thoroughly understand the products back-to-front
+            I always keep the customer in mind and will strive for the best usability experience. My day-to-day involves working closely with other frontend and backend devs, UI/UX designers, product managers and testers in a high-performing team environment
           </p>
         </div>
       </div>
@@ -149,7 +146,7 @@ exports[`App page renders correctly 1`] = `
             Agile Practitioner
           </h2>
           <p>
-            Well versed in utilising both Scrum and Kanban agile development methodologies within a high performing team environment
+            Well versed in utilising both Scrum and Kanban agile development methodologies including experience as a Scrum (Kanban) master
           </p>
         </div>
         <chat.svg
@@ -165,7 +162,7 @@ exports[`App page renders correctly 1`] = `
             Automative Testing
           </h2>
           <p>
-            Takes great pride in code quality and highly respects the importance of creating automated tests spanning all levels of the testing pyramid to ensure the highest quality of products
+            I take great pride in code quality and fully understand the importance of creating automated tests spanning all levels of the testing pyramid to ensure the highest quality of products are released
           </p>
         </div>
       </div>
@@ -181,7 +178,7 @@ exports[`App page renders correctly 1`] = `
             If you'd like to see more of what I can do take a look at my 
             <a
               className={undefined}
-              href="RowanCarmichaelCV.pdf"
+              href="RowanCarmichaelResume.pdf"
               rel="noreferrer noopener"
               target="_blank"
             >
@@ -189,7 +186,7 @@ exports[`App page renders correctly 1`] = `
             </a>
           </p>
           <p>
-            Or if you'd prefer to chat feel free to contact me via 
+            Or if you'd prefer to chat, feel free to contact me via 
             <a
               className={undefined}
               href="mailto:carmichaelr@hotmail.co.uk"

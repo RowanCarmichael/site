@@ -4,7 +4,7 @@ import Typewriter from '../../components/typewriter/Typewriter';
 import styles from './Home.css';
 import laptopBackground from '../../assets/images/laptop.jpg';
 import face from '../../assets/images/face.png';
-import resume from '../../assets/files/RowanCarmichaelCV.pdf';
+import resume from '../../assets/files/RowanCarmichaelResume.pdf';
 import KeyboardIcon from '../../assets/icons/keyboard.svg';
 import DevicesIcon from '../../assets/icons/devices.svg';
 import ChatIcon from '../../assets/icons/chat.svg';
@@ -50,14 +50,13 @@ class Home extends React.Component {
             <DevicesIcon className={styles.icon} />
             <div>
               <h2>Practical Solutions</h2>
-              <p>Critical thinker with an inquisitive personality who has a customer focused mind and always stives for best usability experience</p>
-              <p>Work closely with backend developers, UI/UX designers, product managers and testers to thoroughly understand the products back-to-front</p>
+              <p>I always keep the customer in mind and will strive for the best usability experience. My day-to-day involves working closely with other frontend and backend devs, UI/UX designers, product managers and testers in a high-performing team environment</p>
             </div>
           </div>
           <div>
             <div>
               <h2>Agile Practitioner</h2>
-              <p>Well versed in utilising both Scrum and Kanban agile development methodologies within a high performing team environment</p>
+              <p>Well versed in utilising both Scrum and Kanban agile development methodologies including experience as a Scrum (Kanban) master</p>
             </div>
             <ChatIcon className={styles.icon} />
           </div>
@@ -65,7 +64,7 @@ class Home extends React.Component {
             <TestIcon className={styles.icon} />
             <div>
               <h2>Automative Testing</h2>
-              <p>Takes great pride in code quality and highly respects the importance of creating automated tests spanning all levels of the testing pyramid to ensure the highest quality of products</p>
+              <p>I take great pride in code quality and fully understand the importance of creating automated tests spanning all levels of the testing pyramid to ensure the highest quality of products are released</p>
             </div>
           </div>
           <div>
@@ -73,7 +72,7 @@ class Home extends React.Component {
               <h2>Learner</h2>
               <p>But above all else I love to be challenged, to learn and to grow!</p>
               <p>If you&apos;d like to see more of what I can do take a look at my <a target="_blank" rel="noreferrer noopener" className={styles.link} href={resume}>Resume</a></p>
-              <p>Or if you&apos;d prefer to chat feel free to contact me via <a className={styles.link} href="mailto:carmichaelr@hotmail.co.uk">Email</a> or <a target="_blank" rel="noreferrer noopener" className={styles.link} href="http://www.linkedin.com/in/rowan-carmichael/">LinkedIn</a></p>
+              <p>Or if you&apos;d prefer to chat, feel free to contact me via <a className={styles.link} href="mailto:carmichaelr@hotmail.co.uk">Email</a> or <a target="_blank" rel="noreferrer noopener" className={styles.link} href="http://www.linkedin.com/in/rowan-carmichael/">LinkedIn</a></p>
             </div>
             <BookIcon className={styles.icon} />
           </div>
