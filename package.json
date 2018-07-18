@@ -1,7 +1,11 @@
 {
   "name": "site",
   "version": "0.0.0",
-  "private": true,
+  "repository": "https://github.com/RowanCarmichael/site.git",
+  "homepage": "https://RowanCarmichael.github.io/site",
+  "author": "Rowan Carmichael <carmichaelr@hotmail.co.uk>",
+  "license": "MIT",
+  "private": false,
   "dependencies": {
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
