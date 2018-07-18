@@ -86,13 +86,13 @@ exports[`Resume page renders correctly 1`] = `
                 ReactJS
               </li>
               <li>
-                JavaScript
+                JavaScript (ES6+)
               </li>
               <li>
-                HTML
+                HTML5
               </li>
               <li>
-                CSS
+                CSS3 / LESS / Sass
               </li>
             </ul>
             <h2>
@@ -183,6 +183,18 @@ exports[`Resume page renders correctly 1`] = `
               </li>
               <li>
                 Node.js (Express)
+              </li>
+              <li>
+                Yarn
+              </li>
+              <li>
+                Npm
+              </li>
+              <li>
+                Git
+              </li>
+              <li>
+                Storybook
               </li>
             </ul>
           </div>

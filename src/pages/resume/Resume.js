@@ -49,9 +49,9 @@ class Resume extends React.Component {
                 <h2>Experienced In:</h2>
                 <ul>
                   <li>ReactJS</li>
-                  <li>JavaScript</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
+                  <li>JavaScript (ES6+)</li>
+                  <li>HTML5</li>
+                  <li>CSS3 / LESS / Sass</li>
                 </ul>
                 <h2>Familiar With:</h2>
                 <ul>
@@ -86,6 +86,10 @@ class Resume extends React.Component {
                   <li>Babel</li>
                   <li>Webpack</li>
                   <li>Node.js (Express)</li>
+                  <li>Yarn</li>
+                  <li>Npm</li>
+                  <li>Git</li>
+                  <li>Storybook</li>
                 </ul>
               </div>
             </div>
