@@ -63,8 +63,8 @@ class App extends React.Component {
                 <Link to="/resume"><Button focussable label="Resume" className={styles.linkButton} /></Link>
               </Header>
             </div>
-            <Route exact path="/" component={Home} />
-            <Route path="/resume" component={Resume} />
+            <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home} />
+            <Route path={`${process.env.PUBLIC_URL}/resume`} component={Resume} />
             <Footer>
               <p>© 2018 Rowan Carmichael. All rights reserved.</p>
               <div>
