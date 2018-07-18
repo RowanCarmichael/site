@@ -59,8 +59,8 @@ class App extends React.Component {
           <div className={styles.app}>
             <div className={styles.headerContainer}>
               <Header className={this.state.headerClassName}>
-                <Link to="/"><Button focussable label="Home" className={styles.linkButton} /></Link>
-                <Link to="/resume"><Button focussable label="Resume" className={styles.linkButton} /></Link>
+                <Link to={`${process.env.PUBLIC_URL}/`}><Button focussable label="Home" className={styles.linkButton} /></Link>
+                <Link to={`${process.env.PUBLIC_URL}/resume`}><Button focussable label="Resume" className={styles.linkButton} /></Link>
               </Header>
             </div>
             <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home} />
