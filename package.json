@@ -17,6 +17,8 @@
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-app-rewired eject"
   },
   "devDependencies": {
@@ -33,11 +35,14 @@
     "eslint-plugin-import": "^2.6.0",
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.1.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "gh-pages": "^1.2.0",
     "node-sass": "^4.9.0",
     "prop-types": "^15.6.1",
     "react-app-rewire-eslint": "^0.2.3",
     "react-app-rewire-svg-react-loader": "codebandits/react-app-rewire-svg-react-loader",
     "react-app-rewired": "^1.5.2",
-    "react-test-renderer": "^16.4.1"
+    "react-test-renderer": "^16.4.1",
+    "webpack": "^4.16.1"
   }
 }
